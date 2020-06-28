@@ -18,3 +18,9 @@ git status
 
 git push
 - send ur files online
+
+git commit -am "message"
+- save all the files and provide a message
+
+git pull
+- download latest edits by others online
