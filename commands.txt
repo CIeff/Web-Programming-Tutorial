@@ -1,0 +1,17 @@
+git clone <url>
+
+code .
+- open current file in text editor
+
+git add <filename>
+- tell the system u want to save this file
+
+git commit -m "message"
+- save ur files while making a comment aside
+
+git status
+- what's currently happening in my repositery
+- how many commits i have ahead of the origin commit online
+
+git push
+- send ur files online
