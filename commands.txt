@@ -13,7 +13,7 @@ git commit --amend
 - edit your past commit
 
 git status
-- what's currently happening in my repositery
+- what's currently happening in my repository
 - how many commits i have ahead of the origin commit online
 
 git push
@@ -24,3 +24,25 @@ git commit -am "message"
 
 git pull
 - download latest edits by others online
+
+git log
+- keep track of all the changes made, by whom, when
+
+git reset
+- take current state of repository to older state
+- git reset --hard <commit>
+    - hard reset, reset everything, back to <commit>, to that one particular commit
+- git reset --hard origin/master
+    - reset to repository to current version on GitHub
+
+git branch
+- show which branch im currently on * and which branch exists
+
+git checkout -b style
+- create new branch named style and switch to it
+
+git checkout master
+- switch to master branch
+
+git merge style
+- merge branch style to master
