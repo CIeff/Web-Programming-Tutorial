@@ -7,7 +7,10 @@ git add <filename>
 - tell the system u want to save this file
 
 git commit -m "message"
-- save ur files while making a comment aside
+- save your files while making a comment aside
+
+git commit --amend
+- edit your past commit
 
 git status
 - what's currently happening in my repositery
